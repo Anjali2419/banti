@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <h2>Create Account</h2>
+
+    <form method="POST">
+        <input name="username" placeholder="Username" required>
+        <br><br>
+
+        <input type="password" name="password"
+               placeholder="Password (minimum 8 characters)" required>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p>{{ message }}</p>
+    <a href="/login">Already registered? Login</a>
+</body>
+</html>
